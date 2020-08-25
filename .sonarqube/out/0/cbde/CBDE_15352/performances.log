@@ -1,0 +1,62 @@
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Controllers\CustomerController.cs
+Get 177
+Get -1
+Get 8
+Get -1
+Post 26
+Post -1
+Put 2
+Put -1
+Delete 1
+Delete -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Database\DatabaseContext.cs
+OnConfiguring 3
+OnConfiguring -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Database\Entity\Customer.cs
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\20200820093635_initial.cs
+Up 2
+Up -1
+Down 13
+Down -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\20200820093635_initial.Designer.cs
+BuildTargetModel 4
+BuildTargetModel -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\DatabaseContextModelSnapshot.cs
+BuildModel 3
+BuildModel -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Program.cs
+Main 4
+Main -1
+CreateHostBuilder 4
+CreateHostBuilder -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Repositary\ILoan.cs
+GetAllCustomer 32
+GetAllCustomer -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Resources\Contact.cs
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Resources\Info.cs
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Service\Loan.cs
+GetAllCustomer 20
+GetAllCustomer -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\Startup.cs
+ConfigureServices 2
+ConfigureServices -1
+Configure 3
+Configure -1
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\obj\Debug\netcoreapp3.1\LoanManage.AssemblyInfo.cs
+
+D:\VisualStudio\loanManage\LoanManage\LoanManage\obj\Debug\netcoreapp3.1\LoanManage.MvcApplicationPartsAssemblyInfo.cs
+

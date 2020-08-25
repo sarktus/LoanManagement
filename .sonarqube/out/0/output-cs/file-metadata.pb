@@ -1,0 +1,16 @@
+[
+RD:\VisualStudio\loanManage\LoanManage\LoanManage\Controllers\CustomerController.csutf-8U
+LD:\VisualStudio\loanManage\LoanManage\LoanManage\Database\DatabaseContext.csutf-8U
+LD:\VisualStudio\loanManage\LoanManage\LoanManage\Database\Entity\Customer.csutf-8^
+UD:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\20200820093635_initial.csutf-8i
+^D:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\20200820093635_initial.Designer.csutf-8f
+[D:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\DatabaseContextModelSnapshot.csutf-8D
+;D:\VisualStudio\loanManage\LoanManage\LoanManage\Program.csutf-8M
+DD:\VisualStudio\loanManage\LoanManage\LoanManage\Repositary\ILoan.csutf-8N
+ED:\VisualStudio\loanManage\LoanManage\LoanManage\Resources\Contact.csutf-8K
+BD:\VisualStudio\loanManage\LoanManage\LoanManage\Resources\Info.csutf-8I
+@D:\VisualStudio\loanManage\LoanManage\LoanManage\Service\Loan.csutf-8D
+;D:\VisualStudio\loanManage\LoanManage\LoanManage\Startup.csutf-8Ç
+wD:\VisualStudio\loanManage\LoanManage\LoanManage\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.csutf-8n
+cD:\VisualStudio\loanManage\LoanManage\LoanManage\obj\Debug\netcoreapp3.1\LoanManage.AssemblyInfo.csutf-8Å
+vD:\VisualStudio\loanManage\LoanManage\LoanManage\obj\Debug\netcoreapp3.1\LoanManage.MvcApplicationPartsAssemblyInfo.csutf-8
