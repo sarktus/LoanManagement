@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio\\loanManage\\LoanManage\\APIGateway\\APIGateway.csproj": {}
+    "D:\\VisualStudio\\Git\\LoanManagement\\APIGateway\\APIGateway.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio\\loanManage\\LoanManage\\APIGateway\\APIGateway.csproj": {
+    "D:\\VisualStudio\\Git\\LoanManagement\\APIGateway\\APIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio\\loanManage\\LoanManage\\APIGateway\\APIGateway.csproj",
+        "projectUniqueName": "D:\\VisualStudio\\Git\\LoanManagement\\APIGateway\\APIGateway.csproj",
         "projectName": "APIGateway",
-        "projectPath": "D:\\VisualStudio\\loanManage\\LoanManage\\APIGateway\\APIGateway.csproj",
+        "projectPath": "D:\\VisualStudio\\Git\\LoanManagement\\APIGateway\\APIGateway.csproj",
         "packagesPath": "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio\\loanManage\\LoanManage\\APIGateway\\obj\\",
+        "outputPath": "D:\\VisualStudio\\Git\\LoanManagement\\APIGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

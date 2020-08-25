@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio\\loanManage\\LoanManage\\Authentication\\Authentication.csproj": {}
+    "D:\\VisualStudio\\Git\\LoanManagement\\Authentication\\Authentication.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio\\loanManage\\LoanManage\\Authentication\\Authentication.csproj": {
+    "D:\\VisualStudio\\Git\\LoanManagement\\Authentication\\Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio\\loanManage\\LoanManage\\Authentication\\Authentication.csproj",
+        "projectUniqueName": "D:\\VisualStudio\\Git\\LoanManagement\\Authentication\\Authentication.csproj",
         "projectName": "Authentication",
-        "projectPath": "D:\\VisualStudio\\loanManage\\LoanManage\\Authentication\\Authentication.csproj",
+        "projectPath": "D:\\VisualStudio\\Git\\LoanManagement\\Authentication\\Authentication.csproj",
         "packagesPath": "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio\\loanManage\\LoanManage\\Authentication\\obj\\",
+        "outputPath": "D:\\VisualStudio\\Git\\LoanManagement\\Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -45,6 +45,10 @@
             "Microsoft.AspNet.WebApi.Core": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

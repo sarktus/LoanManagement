@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "b2yX0XRuFgXjYUR0ToKsRu28ZkCK5Do4ZoDFPFMj9kwa8D4Yd8jMc2cfB6UqVeA4W06moRXUm51keWiRhr7L0g==",
+  "dgSpecHash": "+IOEG13WnPHIDt2P3QsBTt9rPZUw4ytx/B3lc8DHM643P/cqNFU1LuDqyXp+j8DS697FrlsBTPTOoxSSlb4Tqg==",
   "success": true,
-  "projectFilePath": "D:\\VisualStudio\\loanManage\\LoanManage\\Authentication\\Authentication.csproj",
+  "projectFilePath": "D:\\VisualStudio\\Git\\LoanManagement\\Authentication\\Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+    "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.7\\microsoft.aspnetcore.authentication.jwtbearer.3.1.7.nupkg.sha512",
     "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

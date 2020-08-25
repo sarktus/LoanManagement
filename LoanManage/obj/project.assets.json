@@ -5910,11 +5910,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\VisualStudio\\loanManage\\LoanManage\\LoanManage\\LoanManage.csproj",
+      "projectUniqueName": "D:\\VisualStudio\\Git\\LoanManagement\\LoanManage\\LoanManage.csproj",
       "projectName": "LoanManage",
-      "projectPath": "D:\\VisualStudio\\loanManage\\LoanManage\\LoanManage\\LoanManage.csproj",
+      "projectPath": "D:\\VisualStudio\\Git\\LoanManagement\\LoanManage\\LoanManage.csproj",
       "packagesPath": "C:\\Users\\ctsdotnetuser112\\.nuget\\packages\\",
-      "outputPath": "D:\\VisualStudio\\loanManage\\LoanManage\\LoanManage\\obj\\",
+      "outputPath": "D:\\VisualStudio\\Git\\LoanManagement\\LoanManage\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
