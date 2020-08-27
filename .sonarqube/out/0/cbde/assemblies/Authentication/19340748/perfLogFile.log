@@ -1,0 +1,16 @@
+File name	Line	Function	Duration[ms]	Explored nodes
+D:\VisualStudio\Git\LoanManagement\Authentication\Migrations\20200825045003_test.cs	24	_Authentication.Migrations.test.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\authcontroller.cs	16	_Authentication.Controllers.authcontroller.Get$$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\authcontroller.cs	25	_Authentication.Controllers.authcontroller.Get$int$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\authcontroller.cs	32	_Authentication.Controllers.authcontroller.Post$string$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\authcontroller.cs	38	_Authentication.Controllers.authcontroller.Put$int.string$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\authcontroller.cs	44	_Authentication.Controllers.authcontroller.Delete$int$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\BasicAuthenticationAttribute.cs	33	_Authentication.Model.BasicAuthenticationAttribute.OnAuthorization$System.Web.Http.Controllers.HttpActionContext$	0	13
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\LoginController.cs	30	_JWTAuthenticationExample.Controllers.LoginController.Login$Authentication.Model.User$	0	5
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\LoginController.cs	54	_JWTAuthenticationExample.Controllers.LoginController.GenerateJWTToken$Authentication.Model.User$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\MyAuthorizeAttribute.cs	28	_Authentication.Model.MyAuthorizeAttribute.HandleUnauthorizedRequest$System.Web.Http.Controllers.HttpActionContext$	0	6
+D:\VisualStudio\Git\LoanManagement\Authentication\Program.cs	13	_Authentication.Program.Main$string$$$	0	3
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\Roles.cs	13	_Authentication.Model.Roles.AdminRole$$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\Roles.cs	18	_Authentication.Model.Roles.UserRole$$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\UserController.cs	15	_Authentication.Controllers.UserController.GetUserData$$	0	2
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\UserController.cs	24	_Authentication.Controllers.UserController.GetAdminData$$	0	2

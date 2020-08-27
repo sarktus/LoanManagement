@@ -1,5 +1,5 @@
-Ì
-;D:\VisualStudio\loanManage\LoanManage\APIGateway\Program.cs
+Í
+8D:\VisualStudio\Git\LoanManagement\APIGateway\Program.cs
  
  
  
@@ -11,8 +11,8 @@
 
 
  	 
-       &   "5 ; * 1# 0Å
-;D:\VisualStudio\loanManage\LoanManage\APIGateway\Startup.cs
+       &   "5 ; * 1# 0˛
+8D:\VisualStudio\Git\LoanManagement\APIGateway\Startup.cs
  
  
  

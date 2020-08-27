@@ -6,6 +6,7 @@ using LoanManage.Database;
 using LoanManage.Database.Entity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -24,21 +25,26 @@ namespace LoanManage.Controllers.v1
 
         // GET: api/<LoanController>
         [HttpGet]
-        public IEnumerable<Loan> Get()
+        public async Task<ActionResult<IEnumerable<Loan>>> Get()
         {
-            return _context.Loans.ToList();
+            return await _context.Loans.ToListAsync();
         }
 
         // GET api/<LoanController>/5
         [HttpGet("{id}")]
-        public Loan Get(int id)
+        public async Task<ActionResult<Loan>> Get(int id)
         {
-            return _context.Loans.Find(id);
+            var loan = await _context.Loans.FindAsync(id);
+            if(loan == null)
+            {
+                return NotFound();
+            }
+            return loan;
         }
 
         // POST api/<LoanController>
         [HttpPost]
-        public ActionResult Post([FromBody] Loan model)
+        public ActionResult Post([Bind(nameof(Loan.Id), nameof(Loan.Startdate), nameof(Loan.Enddate), nameof(Loan.Amount))][FromBody] Loan model)
         {
             try
             {
@@ -55,26 +61,43 @@ namespace LoanManage.Controllers.v1
 
         // PUT api/<LoanController>/5
         [HttpPut("{id}")]
-        public ActionResult Put([FromBody] Loan model)
+        public ActionResult Put([Bind(nameof(Loan.Id), nameof(Loan.Startdate), nameof(Loan.Enddate), nameof(Loan.Amount))][FromBody] Loan model)
         {
-            var LoaninDb = _context.Loans.FirstOrDefault(a => a.Id == model.Id);
-            LoaninDb.Amount = model.Amount;
-            LoaninDb.Type = model.Type;
-            LoaninDb.Startdate = model.Startdate;
-            LoaninDb.Enddate = model.Enddate;
+            try
+            {
+                var LoaninDb = _context.Loans.FirstOrDefault(a => a.Id == model.Id);
+                LoaninDb.Amount = model.Amount;
+                LoaninDb.Type = model.Type;
+                LoaninDb.Startdate = model.Startdate;
+                LoaninDb.Enddate = model.Enddate;
 
-            _context.SaveChanges();
-            return Ok(model);
+                _context.SaveChanges();
+                return Ok(model);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
+            }
         }
 
         // DELETE api/<LoanController>/5
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {
-            var customerinDb = _context.Loans.FirstOrDefault(a => a.Id == id);
-            _context.Remove(customerinDb);
-            _context.SaveChanges();
-            return Ok(customerinDb);
+            try
+            {
+                var customerinDb = _context.Loans.FirstOrDefault(a => a.Id == id);
+                _context.Remove(customerinDb);
+                _context.SaveChanges();
+                return Ok(customerinDb);
+            }
+
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, ex);
+            }
         }
-    }
+
+        
+        }
 }

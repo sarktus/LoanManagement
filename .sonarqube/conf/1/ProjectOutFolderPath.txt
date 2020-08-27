@@ -1,1 +1,1 @@
-D:\VisualStudio\loanManage\LoanManage\.sonarqube\out\1
+D:\VisualStudio\Git\LoanManagement\.sonarqube\out\1

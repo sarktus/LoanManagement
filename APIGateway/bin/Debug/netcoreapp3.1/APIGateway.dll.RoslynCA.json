@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
                   "startLine": 32,
                   "startColumn": 13,
@@ -39,7 +39,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Program.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 1,
@@ -60,7 +60,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Program.cs",
                 "region": {
                   "startLine": 2,
                   "startColumn": 1,
@@ -81,7 +81,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Program.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 1,
@@ -102,7 +102,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Program.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -123,7 +123,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Program.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 1,
@@ -144,7 +144,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 1,
@@ -165,7 +165,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
                   "startLine": 2,
                   "startColumn": 1,
@@ -186,7 +186,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 1,
@@ -207,7 +207,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
                   "startLine": 7,
                   "startColumn": 1,
@@ -228,33 +228,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Program.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 18,
                   "endLine": 12,
                   "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3168",
-          "level": "warning",
-          "message": "Return 'Task' instead.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Startup.cs",
-                "region": {
-                  "startLine": 25,
-                  "startColumn": 22,
-                  "endLine": 25,
-                  "endColumn": 26
                 }
               }
             }
@@ -270,12 +249,33 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/APIGateway/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
                   "startLine": 29,
                   "startColumn": 17,
                   "endLine": 29,
                   "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3168",
+          "level": "warning",
+          "message": "Return 'Task' instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 22,
+                  "endLine": 25,
+                  "endColumn": 26
                 }
               }
             }

@@ -1,7 +1,0 @@
-File name	Line	Function	Duration[ms]	Explored nodes
-D:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\20200820093635_initial.cs	24	_LoanManage.Migrations.initial.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
-D:\VisualStudio\loanManage\LoanManage\LoanManage\Controllers\CustomerController.cs	24	_LoanManage.Controllers.CustomerController.Get$$	0	2
-D:\VisualStudio\loanManage\LoanManage\LoanManage\Controllers\CustomerController.cs	31	_LoanManage.Controllers.CustomerController.Get$int$	0	2
-D:\VisualStudio\loanManage\LoanManage\LoanManage\Database\DatabaseContext.cs	13	_LoanManage.Database.DatabaseContext.OnConfiguring$Microsoft.EntityFrameworkCore.DbContextOptionsBuilder$	0	3
-D:\VisualStudio\loanManage\LoanManage\LoanManage\Service\Loan.cs	19	_LoanManage.Service.Loan.GetAllCustomer$$	0	2
-D:\VisualStudio\loanManage\LoanManage\LoanManage\Program.cs	13	_LoanManage.Program.Main$string$$$	0	3

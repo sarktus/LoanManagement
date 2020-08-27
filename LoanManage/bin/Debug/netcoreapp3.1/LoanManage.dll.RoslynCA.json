@@ -18,7 +18,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 11,
                   "startColumn": 23,
@@ -39,7 +39,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 23,
@@ -60,7 +60,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 13,
                   "startColumn": 23,
@@ -81,7 +81,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 14,
                   "startColumn": 23,
@@ -102,7 +102,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 15,
                   "startColumn": 23,
@@ -123,7 +123,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Controllers/CustomerController.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v1/LoanController.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -144,7 +144,70 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Database/DatabaseContext.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 1,
+                  "endLine": 3,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/DatabaseContext.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 1,
@@ -165,7 +228,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Database/DatabaseContext.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/DatabaseContext.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -186,7 +249,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Database/DatabaseContext.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/DatabaseContext.cs",
                 "region": {
                   "startLine": 5,
                   "startColumn": 1,
@@ -207,7 +270,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Database/DatabaseContext.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/DatabaseContext.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 1,
@@ -228,7 +291,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Database/Entity/Customer.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/Loan.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 1,
@@ -249,7 +312,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Database/Entity/Customer.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/Loan.cs",
                 "region": {
                   "startLine": 2,
                   "startColumn": 1,
@@ -270,7 +333,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Database/Entity/Customer.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/Loan.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -291,7 +354,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Database/Entity/Customer.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/Loan.cs",
                 "region": {
                   "startLine": 5,
                   "startColumn": 1,
@@ -312,7 +375,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 1,
@@ -333,7 +396,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
                 "region": {
                   "startLine": 2,
                   "startColumn": 1,
@@ -354,7 +417,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 1,
@@ -375,7 +438,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -396,7 +459,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 1,
@@ -417,7 +480,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 1,
@@ -438,7 +501,28 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Repositary/ILoan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
                 "region": {
                   "startLine": 2,
                   "startColumn": 1,
@@ -459,7 +543,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Repositary/ILoan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 1,
@@ -480,7 +564,28 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Repositary/ILoan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
+                "region": {
+                  "startLine": 4,
+                  "startColumn": 1,
+                  "endLine": 4,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
                 "region": {
                   "startLine": 5,
                   "startColumn": 1,
@@ -501,7 +606,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Repositary/ILoan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 1,
@@ -522,7 +627,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Contact.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Contact.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 1,
@@ -543,7 +648,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Contact.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Contact.cs",
                 "region": {
                   "startLine": 2,
                   "startColumn": 1,
@@ -564,7 +669,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Contact.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Contact.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 1,
@@ -585,7 +690,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Contact.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Contact.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -606,7 +711,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 2,
                   "startColumn": 1,
@@ -627,7 +732,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 1,
@@ -648,7 +753,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -669,7 +774,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Resources/Info.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Info.cs",
                 "region": {
                   "startLine": 5,
                   "startColumn": 1,
@@ -690,7 +795,49 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Service/Loan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
+                "region": {
+                  "startLine": 2,
+                  "startColumn": 1,
+                  "endLine": 2,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -711,7 +858,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Service/Loan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
                 "region": {
                   "startLine": 5,
                   "startColumn": 1,
@@ -732,7 +879,49 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Service/Loan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 1,
+                  "endLine": 6,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 1,
+                  "endLine": 7,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1128",
+          "level": "warning",
+          "message": "Remove this unnecessary 'using'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 1,
@@ -753,7 +942,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 1,
@@ -774,7 +963,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
                   "startLine": 2,
                   "startColumn": 1,
@@ -795,7 +984,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
                   "startLine": 3,
                   "startColumn": 1,
@@ -816,7 +1005,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
                   "startLine": 4,
                   "startColumn": 1,
@@ -837,11 +1026,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
-                  "startLine": 8,
+                  "startLine": 9,
                   "startColumn": 1,
-                  "endLine": 8,
+                  "endLine": 9,
                   "endColumn": 32
                 }
               }
@@ -858,33 +1047,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
-                  "startLine": 12,
+                  "startLine": 14,
                   "startColumn": 1,
-                  "endLine": 12,
+                  "endLine": 14,
                   "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2933",
-          "level": "warning",
-          "message": "Make 'db' 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Controllers/CustomerController.cs",
-                "region": {
-                  "startLine": 18,
-                  "startColumn": 25,
-                  "endLine": 18,
-                  "endColumn": 27
                 }
               }
             }
@@ -900,7 +1068,7 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Program.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
                 "region": {
                   "startLine": 12,
                   "startColumn": 18,
@@ -915,18 +1083,60 @@
           }
         },
         {
-          "ruleId": "S2933",
+          "ruleId": "S1186",
           "level": "warning",
-          "message": "Make 'Context' 'readonly'.",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Service/Loan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
                 "region": {
-                  "startLine": 14,
-                  "startColumn": 33,
-                  "endLine": 14,
-                  "endColumn": 40
+                  "startLine": 32,
+                  "startColumn": 21,
+                  "endLine": 32,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 21,
+                  "endLine": 38,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 21,
+                  "endLine": 44,
+                  "endColumn": 27
                 }
               }
             }
@@ -942,11 +1152,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/loanManage/LoanManage/LoanManage/Startup.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
-                  "startLine": 51,
+                  "startLine": 66,
                   "startColumn": 17,
-                  "endLine": 51,
+                  "endLine": 66,
                   "endColumn": 48
                 }
               }
@@ -1006,14 +1216,14 @@
             ]
           }
         },
-        "S2933": {
-          "id": "S2933",
-          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
-          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that's not marked readonly but is only set in the constructor, it could cause confusion about the field's intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+        "S1186": {
+          "id": "S1186",
+          "shortDescription": "Methods should not be empty",
+          "fullDescription": "There are several reasons for a method not to have a method body:",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1186",
           "properties": {
-            "category": "Major Code Smell",
+            "category": "Critical Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

@@ -1,23 +1,29 @@
-¼
-RD:\VisualStudio\loanManage\LoanManage\LoanManage\Controllers\CustomerController.cs 8j
-&,8Fr? !"#$'()*+-./0123469:;<=>?ABDGHIJKLMNOPx‚#-./3<=>?ABJKLMm
-LD:\VisualStudio\loanManage\LoanManage\LoanManage\Database\DatabaseContext.cs 8r	
-‚h
-LD:\VisualStudio\loanManage\LoanManage\LoanManage\Database\Entity\Customer.cs 8r	
-Š
-UD:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\20200820093635_initial.cs 8r	
-‚		f
-;D:\VisualStudio\loanManage\LoanManage\LoanManage\Program.cs 8r
-‚W
-DD:\VisualStudio\loanManage\LoanManage\LoanManage\Repositary\ILoan.csr	
-_
-ED:\VisualStudio\loanManage\LoanManage\LoanManage\Resources\Contact.cs 8r	
-\
-BD:\VisualStudio\loanManage\LoanManage\LoanManage\Resources\Info.cs 
-8
-r	
-h
-@D:\VisualStudio\loanManage\LoanManage\LoanManage\Service\Loan.cs 8r
-‚—
-;D:\VisualStudio\loanManage\LoanManage\LoanManage\Startup.cs 8j.r:	
- !"#$%&'()*+,/0123468:;<=?@ABCDEx‚1368:<?@A
+i
+JD:\VisualStudio\Git\LoanManagement\Authentication\Context\UserDBContext.cs 8jr	
+Ž
+OD:\VisualStudio\Git\LoanManagement\Authentication\Controllers\authcontroller.cs 8j &,r&
+!"#$'()*-./012‚¹
+PD:\VisualStudio\Git\LoanManagement\Authentication\Controllers\LoginController.cs 8rF	
+ !"#$%&'()*+,-./12345789:<=>?@ACDEFGHIJKOPx‚#$%'(.349:=>?@GJ~
+OD:\VisualStudio\Git\LoanManagement\Authentication\Controllers\UserController.cs 8r
+ !‚’
+ZD:\VisualStudio\Git\LoanManagement\Authentication\Controllers\WeatherForecastController.cs 8r#	
+ !"#$%&'‚ !"ˆ
+SD:\VisualStudio\Git\LoanManagement\Authentication\Migrations\20200825045003_test.cs 8r	
+‚		»
+WD:\VisualStudio\Git\LoanManagement\Authentication\Model\BasicAuthenticationAttribute.cs 8j7r<	
+"#$%&'()*+,-./012345689:;<=>?@ABCDEFGHIJx
+‚$&')./03589:;=?DE„
+OD:\VisualStudio\Git\LoanManagement\Authentication\Model\MyAuthorizeAttribute.cs 8jr	
+ !"#$%&'()*x‚ "&f
+@D:\VisualStudio\Git\LoanManagement\Authentication\Model\Roles.cs 8r	
+‚W
+?D:\VisualStudio\Git\LoanManagement\Authentication\Model\User.cs 8r	
+„
+GD:\VisualStudio\Git\LoanManagement\Authentication\Model\UserValidate.cs 8jr	
+ !"#x‚	 g
+<D:\VisualStudio\Git\LoanManagement\Authentication\Program.cs 8r
+‚«
+<D:\VisualStudio\Git\LoanManagement\Authentication\Startup.cs 8j?rF	
+ !"#$%&'()*+,-./01246789:<=@ABCDEGHIKLMNOPQx‚"#$&'(01689<BDGHIKMY
+DD:\VisualStudio\Git\LoanManagement\Authentication\WeatherForecast.cs 8r	

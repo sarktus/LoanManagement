@@ -1,63 +1,160 @@
-®
-RD:\VisualStudio\loanManage\LoanManage\LoanManage\Controllers\CustomerController.cs
-
- #n
-   ## -- .. << !AA JJ !KK LL 
-
- !
-
-% (
-
-!! 
-!!  "##% '
-
-(( !
-((6 ;--! &//@ E
-11 33L N
-
-::  <
-::5 :<<P U==  %>> $??# (BB (
-<< == >> ?? 
-<<; <<<@ A
-
-HH #
-HH( *JJP R
-JJ KK "MM "
-JJ; <JJ@ Aˆ
-LD:\VisualStudio\loanManage\LoanManage\LoanManage\Database\DatabaseContext.cs
-
+
+JD:\VisualStudio\Git\LoanManagement\Authentication\Context\UserDBContext.cs
 
 
-  
+ . ;
 
- (
+ 
+= D 
 
-  -
-F T Š
-LD:\VisualStudio\loanManage\LoanManage\LoanManage\Database\Entity\Customer.cs
+  Õ
+OD:\VisualStudio\Git\LoanManagement\Authentication\Controllers\authcontroller.cs
 
-		 
+ 
 
- 
+  
 
- 
+ 
 
- 
+  
 
- ‡
-UD:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\20200820093635_initial.cs
+"" 
 
-  
+""+ 0
+
+(( 
+
+(( 
+
+((2 7
+
+.. 
+
+.. !ç
+PD:\VisualStudio\Git\LoanManagement\Authentication\Controllers\LoginController.cs
+
+  2
+( / 99N UDD EE !
+' / 33  
+
+ 
+. 4 
+D K 
+
+!! "
+!!3 8$$) .
+## "(( .. (
+$$ %% ''3 7++" &
+11 $$ (
+'' ** '
+77 ''" 2
+11# 333J Z	33u …
+33 44 
+337 833< =33g h
+77% ->>7 ???" *
+99 ::5 @
+:: HH$ /
+<< FF 
+CC JJ< Au
+OD:\VisualStudio\Git\LoanManagement\Authentication\Controllers\UserController.cs
+
+ 
+
+ (
+
+ )–
+ZD:\VisualStudio\Git\LoanManagement\Authentication\Controllers\WeatherForecastController.cs
+ *! :1 J
+) 2"" #""- 6
+< C 
+
+ (
+L R 
+
+, /
+ !! """$ '
+1 6  , 1…
+SD:\VisualStudio\Git\LoanManagement\Authentication\Migrations\20200825045003_test.cs
+
+ 
 
   "
 4 D		 2
- ! &    #
+   $ $  
  " 
-5 6: ;
+1 26 7
 
   $
-6 F ­
-;D:\VisualStudio\loanManage\LoanManage\LoanManage\Program.cs
+6 F ™
+WD:\VisualStudio\Git\LoanManagement\Authentication\Model\BasicAuthenticationAttribute.cs
+
+ -
+ "))p u
+
+. :
+
+"" ,Z
+""? L$$ && &&) 6'' !)) !..- :DD !DD- :
+.. *//e x
+// 1001 K
+00 .11" 722" 7(
+11 33' /55B J667 ?
+22 331 955L T(
+55 #88A L99G R::X c(
+66  88 99 ::@ H
+:: (;;. 7??A J
+<< == ?? Ÿ
+OD:\VisualStudio\Git\LoanManagement\Authentication\Model\MyAuthorizeAttribute.cs
+
+		 %
+
+  9
+h u""/ <&& 
+    ’
+@D:\VisualStudio\Git\LoanManagement\Authentication\Model\Roles.cs
+
+		 
+ ![ `
+ ![ `
+
+* 3
+
+* 2}
+?D:\VisualStudio\Git\LoanManagement\Authentication\Model\User.cs
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ ý
+GD:\VisualStudio\Git\LoanManagement\Authentication\Model\UserValidate.cs
+
+
+
+ (
+& .  $ $
+
+ 
+* 1 
+
+  
+( 0% -
+9 A$ ,
+  
+! %  
+
+ )
+1 9% -
+B J  $ ,
+  
+, 0    ®
+<D:\VisualStudio\Git\LoanManagement\Authentication\Program.cs
 
  
 
@@ -65,63 +162,32 @@ UD:\VisualStudio\loanManage\LoanManage\LoanManage\Migrations\20200820093635_init
 ) - "
 # 4 
 > B& *
-* 4 ^
-DD:\VisualStudio\loanManage\LoanManage\LoanManage\Repositary\ILoan.cs
+* 4 À
+<D:\VisualStudio\Git\LoanManagement\Authentication\Startup.cs
 
-
-
- 
+ 
 
- ,ƒ
-ED:\VisualStudio\loanManage\LoanManage\LoanManage\Resources\Contact.cs
+ 
+& 3 )<
+ + .." ///$ 100W d<<I V
 
- 
+   %2
+  9 A"" ## 66 << (
+$$ !&& '' (( 
+66& ,88 99 
+<<1 4<<8 ;
 
-
-
- 
+@@ <
+@@2 5DD GG HH II KK 
+@@K NBB 
+KK &MM Œ
+DD:\VisualStudio\Git\LoanManagement\Authentication\WeatherForecast.cs
 
- 
+  
 
- 
+ 
+		 . :
 
- Œ
-BD:\VisualStudio\loanManage\LoanManage\LoanManage\Resources\Info.cs
+ 
 
-		 
-
- 
-
- 
-
- !
-
- $
-
- œ
-@D:\VisualStudio\loanManage\LoanManage\LoanManage\Service\Loan.cs
-
- 
-  '  
-
- 
-& - "
-
-% 3Ù
-;D:\VisualStudio\loanManage\LoanManage\LoanManage\Startup.cs
-
- 
-
- 
-& 3 )
- + 
-
- %
-9 A  
-# $ 
-
-// F
-//2 533 66 88 :: ?? @@ 
-//K N11 
-:: &<< 
-@@ AA 
+ 

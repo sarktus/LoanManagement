@@ -125,3 +125,4 @@ D:\VisualStudio\Git\LoanManagement\Authentication\obj\Debug\netcoreapp3.1\Authen
 D:\VisualStudio\Git\LoanManagement\Authentication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\VisualStudio\Git\LoanManagement\Authentication\obj\Debug\netcoreapp3.1\Authentication.csproj.CoreCompileInputs.cache
 D:\VisualStudio\Git\LoanManagement\Authentication\obj\Debug\netcoreapp3.1\Authentication.MvcApplicationPartsAssemblyInfo.cache
+D:\VisualStudio\Git\LoanManagement\Authentication\obj\Debug\netcoreapp3.1\Authentication.csprojAssemblyReference.cache

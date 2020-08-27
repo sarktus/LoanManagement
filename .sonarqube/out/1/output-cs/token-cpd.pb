@@ -1,5 +1,5 @@
-Ì
-;D:\VisualStudio\loanManage\LoanManage\APIGateway\Program.cs
+Í
+8D:\VisualStudio\Git\LoanManagement\APIGateway\Program.cs
 	namespace
 
  	
@@ -97,8 +97,8 @@ UseStartup )
 ) 
 ; 
 } 
-} ç	
-;D:\VisualStudio\loanManage\LoanManage\APIGateway\Startup.cs
+} ä	
+8D:\VisualStudio\Git\LoanManagement\APIGateway\Startup.cs
 	namespace 	
 
 APIGateway

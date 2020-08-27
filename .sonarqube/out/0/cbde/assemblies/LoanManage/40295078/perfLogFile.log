@@ -1,0 +1,13 @@
+File name	Line	Function	Duration[ms]	Explored nodes
+D:\VisualStudio\Git\LoanManagement\LoanManage\Migrations\20200820093635_initial.cs	24	_LoanManage.Migrations.initial.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+D:\VisualStudio\Git\LoanManagement\LoanManage\Migrations\20200824182618_initial1.cs	25	_LoanManage.Migrations.initial1.Down$Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder$	0	3
+D:\VisualStudio\Git\LoanManagement\LoanManage\Database\DatabaseContext.cs	22	_LoanManage.Database.DatabaseContext.OnConfiguring$Microsoft.EntityFrameworkCore.DbContextOptionsBuilder$	0	3
+D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v1\LoanController.cs	25	_LoanManage.Controllers.v1.LoanController.Get$$	0	2
+D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v1\LoanController.cs	32	_LoanManage.Controllers.v1.LoanController.Get$int$	0	2
+D:\VisualStudio\Git\LoanManagement\LoanManage\Service\Loan.cs	13	_LoanManage.Service.Loan.LoanList$$	0	2
+D:\VisualStudio\Git\LoanManagement\LoanManage\Program.cs	13	_LoanManage.Program.Main$string$$$	0	3
+D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v2\TestController.cs	16	_LoanManage.Controllers.v2.TestController.Get$$	0	2
+D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v2\TestController.cs	23	_LoanManage.Controllers.v2.TestController.Get$int$	0	2
+D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v2\TestController.cs	30	_LoanManage.Controllers.v2.TestController.Post$string$	0	2
+D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v2\TestController.cs	36	_LoanManage.Controllers.v2.TestController.Put$int.string$	0	2
+D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v2\TestController.cs	42	_LoanManage.Controllers.v2.TestController.Delete$int$	0	2

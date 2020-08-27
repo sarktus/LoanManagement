@@ -1,3 +1,0 @@
-File name	Line	Function	Duration[ms]	Explored nodes
-D:\VisualStudio\loanManage\LoanManage\APIGateway\Program.cs	13	_APIGateway.Program.Main$string$$$	0	3
-D:\VisualStudio\loanManage\LoanManage\APIGateway\Startup.cs	18	_APIGateway.Startup.ConfigureServices$Microsoft.Extensions.DependencyInjection.IServiceCollection$	0	3
