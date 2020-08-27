@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LoanManage.Database.Entity
 {
-    public class Loan
+    public class LoanDetails
     {
         public int Id { get; set; }
 
@@ -14,7 +14,13 @@ namespace LoanManage.Database.Entity
         public int Amount { get; set; }
 
         [Required]
+        public string Term { get; set; }
+
+        [Required]
         public string Type { get; set; }
+
+        [Required]
+        public string City { get; set; }
 
         [Required]
         public string Startdate { get; set; }

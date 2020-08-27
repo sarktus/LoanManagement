@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using LoanManage.Database;
 using LoanManage.Database.Entity;
+using LoanManage.Repositary;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -18,23 +19,32 @@ namespace LoanManage.Controllers.v1
     public class LoanController : ControllerBase
     {
         private readonly DatabaseContext _context;
-        public LoanController(DatabaseContext context)
+
+        private readonly ILoan _ILoan;
+        public LoanController(ILoan _iLoan)
         {
-            _context = context;
+            this._ILoan = _iLoan;
         }
 
-        // GET: api/<LoanController>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Loan>>> Get()
+        public async Task<ActionResult<IEnumerable<LoanDetails>>> Get()
         {
-            return await _context.Loans.ToListAsync();
+            try
+            {
+                return Ok(await _ILoan.LoanList());
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
         }
 
         // GET api/<LoanController>/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Loan>> Get(int id)
+        public async Task<ActionResult<LoanDetails>> Get(int id)
         {
-            var loan = await _context.Loans.FindAsync(id);
+            var loan = await _context.LoanDetail.FindAsync(id);
             if(loan == null)
             {
                 return NotFound();
@@ -44,12 +54,12 @@ namespace LoanManage.Controllers.v1
 
         // POST api/<LoanController>
         [HttpPost]
-        public ActionResult Post([Bind(nameof(Loan.Id), nameof(Loan.Startdate), nameof(Loan.Enddate), nameof(Loan.Amount))][FromBody] Loan model)
+        public ActionResult Post([Bind(nameof(LoanDetails.Id), nameof(LoanDetails.Startdate), nameof(LoanDetails.Enddate), nameof(LoanDetails.Amount))][FromBody] LoanDetails model)
         {
             try
             {
                 //Validation
-                _context.Loans.Add(model);
+                _context.LoanDetail.Add(model);
                 _context.SaveChanges();
                 return StatusCode(StatusCodes.Status201Created, model);
             }
@@ -61,11 +71,11 @@ namespace LoanManage.Controllers.v1
 
         // PUT api/<LoanController>/5
         [HttpPut("{id}")]
-        public ActionResult Put([Bind(nameof(Loan.Id), nameof(Loan.Startdate), nameof(Loan.Enddate), nameof(Loan.Amount))][FromBody] Loan model)
+        public ActionResult Put([Bind(nameof(LoanDetails.Id), nameof(LoanDetails.Startdate), nameof(LoanDetails.Enddate), nameof(LoanDetails.Amount))][FromBody] LoanDetails model)
         {
             try
             {
-                var LoaninDb = _context.Loans.FirstOrDefault(a => a.Id == model.Id);
+                var LoaninDb = _context.LoanDetail.FirstOrDefault(a => a.Id == model.Id);
                 LoaninDb.Amount = model.Amount;
                 LoaninDb.Type = model.Type;
                 LoaninDb.Startdate = model.Startdate;
@@ -86,7 +96,7 @@ namespace LoanManage.Controllers.v1
         {
             try
             {
-                var customerinDb = _context.Loans.FirstOrDefault(a => a.Id == id);
+                var customerinDb = _context.LoanDetail.FirstOrDefault(a => a.Id == id);
                 _context.Remove(customerinDb);
                 _context.SaveChanges();
                 return Ok(customerinDb);
@@ -97,7 +107,5 @@ namespace LoanManage.Controllers.v1
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }
-
-        
         }
 }

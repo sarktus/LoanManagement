@@ -18,7 +18,7 @@ namespace LoanManage.Database
         {
 
         }
-        public DbSet<Loan> Loans { get; set; }
+        public DbSet<LoanDetails> LoanDetail { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

@@ -10,6 +10,6 @@ namespace LoanManage.Repositary
    public interface ILoan 
     {
 
-        string LoanList();
+        Task<IEnumerable<LoanDetails>> LoanList();
     }
 }

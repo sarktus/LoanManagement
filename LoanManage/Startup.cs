@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using LoanManage.Database;
+using LoanManage.Repositary;
 using LoanManage.Resources;
+using LoanManage.Service;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -28,7 +30,10 @@ namespace LoanManage
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DatabaseContext>(opts => opts.UseSqlServer(@"Server=CTSDOTNET23;database=Loan;Trusted_Connection=True;MultipleActiveResultSets=true;"));
+
             services.AddControllers();
+            // Rest of the code
+            services.AddScoped<ILoan, Loan>();
 
             services.AddSwaggerGen(c => {
                 c.SwaggerDoc("v1", new Info

@@ -49,7 +49,6 @@ D:\VisualStudio\Git\LoanManagement\APIGateway\bin\Debug\netcoreapp3.1\Microsoft.
 D:\VisualStudio\Git\LoanManagement\APIGateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\VisualStudio\Git\LoanManagement\APIGateway\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 D:\VisualStudio\Git\LoanManagement\APIGateway\bin\Debug\netcoreapp3.1\Ocelot.dll
-D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csprojAssemblyReference.cache
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.AssemblyInfoInputs.cache
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.AssemblyInfo.cs
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csproj.CoreCompileInputs.cache

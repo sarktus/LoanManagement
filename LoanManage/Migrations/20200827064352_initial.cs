@@ -7,25 +7,28 @@ namespace LoanManage.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Customers",
+                name: "LoanDetail",
                 columns: table => new
                 {
-                    CustomerId = table.Column<int>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(nullable: false),
-                    age = table.Column<int>(nullable: false),
-                    Address = table.Column<string>(nullable: false)
+                    Amount = table.Column<int>(nullable: false),
+                    Term = table.Column<string>(nullable: false),
+                    Type = table.Column<string>(nullable: false),
+                    City = table.Column<string>(nullable: false),
+                    Startdate = table.Column<string>(nullable: false),
+                    Enddate = table.Column<string>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Customers", x => x.CustomerId);
+                    table.PrimaryKey("PK_LoanDetail", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Customers");
+                name: "LoanDetail");
         }
     }
 }

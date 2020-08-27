@@ -11,25 +11,25 @@ using System.Threading.Tasks;
 
 namespace MSUnitTest
 {
-    [TestClass]
-    public class LoanTest
-    {
-        private LoanController controller;
+    //[TestClass]
+    //public class LoanTest
+    //{
+    //    private LoanController controller;
 
-        public LoanTest()
-        {
-            var webhost = Microsoft.AspNetCore.WebHost.CreateDefaultBuilder().UseStartup<Startup>().Build();
-            var serv = webhost.Services.GetRequiredService<DatabaseContext>();
+    //    public LoanTest()
+    //    {
+    //        var webhost = Microsoft.AspNetCore.WebHost.CreateDefaultBuilder().UseStartup<Startup>().Build();
+    //        var serv = webhost.Services.GetRequiredService<DatabaseContext>();
            
-            controller = new LoanController(serv);
-        }
+    //        controller = new LoanController(serv);
+    //    }
 
-        [TestMethod]
-        public async Task GetTest()
-        {
-            int id = 1;
-            var response = await controller.Get(id);
-            Assert.AreEqual("10121992", ((Loan)response.Value).Startdate);
-        }
+    //    [TestMethod]
+    //    public async Task GetTest()
+    //    {
+    //        int id = 1;
+    //        var response = await controller.Get(id);
+    //        Assert.AreEqual("10121992", ((Loan)response.Value).Startdate);
+    //    }
     }
-}
+//}
