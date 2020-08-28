@@ -11,5 +11,9 @@ namespace LoanManage.Repositary
     {
 
         Task<IEnumerable<LoanDetails>> LoanList();
+        Task<LoanDetails> LoanListById(int Id);
+        LoanDetails AddListPost(LoanDetails model);
+        LoanDetails AddListPut(LoanDetails model);
+        void DeleteLoan(int id);
     }
 }

@@ -21,8 +21,9 @@
           "Port": 54604
         }
       ],
-      "UpstreamPathTemplate": "/Loan/{id}",
+      "UpstreamPathTemplate": "/Loanput",
       "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
     }
+   
   ]
 }

@@ -61,3 +61,4 @@ D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\staticweba
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.dll
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.pdb
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.genruntimeconfig.cache
+D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csprojAssemblyReference.cache

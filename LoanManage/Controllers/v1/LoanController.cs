@@ -18,8 +18,6 @@ namespace LoanManage.Controllers.v1
     [ApiController]
     public class LoanController : ControllerBase
     {
-        private readonly DatabaseContext _context;
-
         private readonly ILoan _ILoan;
         public LoanController(ILoan _iLoan)
         {
@@ -44,12 +42,16 @@ namespace LoanManage.Controllers.v1
         [HttpGet("{id}")]
         public async Task<ActionResult<LoanDetails>> Get(int id)
         {
-            var loan = await _context.LoanDetail.FindAsync(id);
-            if(loan == null)
+
+            try
             {
-                return NotFound();
+                return Ok(await _ILoan.LoanListById(id));
             }
-            return loan;
+            catch(Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
         }
 
         // POST api/<LoanController>
@@ -58,10 +60,8 @@ namespace LoanManage.Controllers.v1
         {
             try
             {
-                //Validation
-                _context.LoanDetail.Add(model);
-                _context.SaveChanges();
-                return StatusCode(StatusCodes.Status201Created, model);
+               var addedModel =  _ILoan.AddListPost(model);
+                return Ok(addedModel);
             }
             catch (Exception ex)
             {
@@ -75,14 +75,8 @@ namespace LoanManage.Controllers.v1
         {
             try
             {
-                var LoaninDb = _context.LoanDetail.FirstOrDefault(a => a.Id == model.Id);
-                LoaninDb.Amount = model.Amount;
-                LoaninDb.Type = model.Type;
-                LoaninDb.Startdate = model.Startdate;
-                LoaninDb.Enddate = model.Enddate;
-
-                _context.SaveChanges();
-                return Ok(model);
+                var editedModel = _ILoan.AddListPut(model);
+                return Ok(editedModel);
             }
             catch (Exception ex)
             {
@@ -92,14 +86,17 @@ namespace LoanManage.Controllers.v1
 
         // DELETE api/<LoanController>/5
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
             try
             {
-                var customerinDb = _context.LoanDetail.FirstOrDefault(a => a.Id == id);
-                _context.Remove(customerinDb);
-                _context.SaveChanges();
-                return Ok(customerinDb);
+                var customerinDb = await _ILoan.LoanListById(id);
+                if (customerinDb == null)
+                {
+                    return NotFound();
+                }
+                _ILoan.DeleteLoan(id);
+                return NoContent();
             }
 
             catch (Exception ex)
@@ -107,5 +104,6 @@ namespace LoanManage.Controllers.v1
                 return StatusCode(StatusCodes.Status500InternalServerError, ex);
             }
         }
-        }
+
+    }
 }
