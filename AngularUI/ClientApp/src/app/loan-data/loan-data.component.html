@@ -1,0 +1,44 @@
+<h1 id="tableLabel">Loan Data</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+<div class="form-group">
+  <input type="text" class="form-control" placeholder="Search Here" [(ngModel)]="filterterm">
+</div>
+
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th>Amount</th>
+      <th>Term</th>
+      <th>Type</th>
+      <th>City</th>
+      <th>Start Date</th>
+      <th>End Date</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let pd of service.list | filter:filterterm">
+      <td>{{ pd.Amount }}</td>
+      <td>{{ pd.Term }}</td>
+      <td>{{ pd.Type }}</td>
+      <td>{{ pd.City }}</td>
+      <td>{{ pd.Startdate }}</td>
+      <td>{{ pd.Enddate }}</td>
+      <td>
+        <div style="width: 50%; float: left;">
+          <i class="far fa-trash-alt fa-lg text-danger" title="Delete" (click)="onDelete(pd.Id)"></i>
+        </div>
+        <div>
+          <i class="fas fa-edit" title="Edit" (click)="onEdit(pd.Id)"></i>
+        </div>
+       </td>
+    </tr>
+  </tbody>
+</table>
+
+<button type="button" class="btn btn-primary" [routerLink]="['/loan-detail-form']">
+  Add New
+</button>

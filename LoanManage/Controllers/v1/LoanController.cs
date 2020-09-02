@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using LoanManage.Database;
 using LoanManage.Database.Entity;
 using LoanManage.Repositary;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -16,6 +17,7 @@ namespace LoanManage.Controllers.v1
     [Route("api/[controller]")]
     [ApiExplorerSettings(GroupName = "v1")]
     [ApiController]
+   
     public class LoanController : ControllerBase
     {
         private readonly ILoan _ILoan;

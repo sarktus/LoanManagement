@@ -30,6 +30,21 @@ namespace LoanManage
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DatabaseContext>(opts => opts.UseSqlServer(@"Server=CTSDOTNET23;database=Loan;Trusted_Connection=True;MultipleActiveResultSets=true;"));
+            //services.AddCors(c =>
+            //{
+            //    //c.AddPolicy("AllowOrigin", options => options.WithOrigins("http://localhost:65521"));
+            //    c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            //});
+
+            //remove default json formatting
+            services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.PropertyNamingPolicy = null;
+                options.JsonSerializerOptions.DictionaryKeyPolicy = null;
+            });
+
+            //add cors package
+            services.AddCors();
 
             services.AddControllers();
             // Rest of the code
@@ -70,6 +85,12 @@ namespace LoanManage
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            //configurations to cosume the Web API from port : 65521 (Angualr App)
+            app.UseCors(options =>
+            options.WithOrigins("http://localhost:65521")
+            .AllowAnyMethod()
+            .AllowAnyHeader());
 
             app.UseRouting();
 
