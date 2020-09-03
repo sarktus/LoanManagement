@@ -27,26 +27,11 @@ export class HomeComponent implements OnInit {
 
 
   onSubmit(form: NgForm) {
-    //this.service.loginDetail().subscribe(
-    //  res => {
-    //    if (res == "Success") {
-
-    //    }
-        
-
-    //    this.ngRoute.navigate(['/loan-data']);
-    //  },
-    //  err => {
-    //    console.log(err);
-    //  }
-    //)
       this.service.loginDetail().subscribe(
         res => {
-          //return
           if (res != null) {
             this.ngRoute.navigate(['/loan-data']);
         }
-        
       },
       err => {
         console.log(err);

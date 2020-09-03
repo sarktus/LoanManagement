@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using LoanManage.Database;
 using LoanManage.Database.Entity;
 using LoanManage.Repositary;
-using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace LoanManage.Controllers.v1
 {
@@ -47,7 +42,15 @@ namespace LoanManage.Controllers.v1
 
             try
             {
-                return Ok(await _ILoan.LoanListById(id));
+                if(id != 0)
+                {
+                    return Ok(await _ILoan.LoanListById(id));
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status406NotAcceptable);
+                }
+                
             }
             catch(Exception)
             {
@@ -58,12 +61,19 @@ namespace LoanManage.Controllers.v1
 
         // POST api/<LoanController>
         [HttpPost]
-        public ActionResult Post([Bind(nameof(LoanDetails.Id), nameof(LoanDetails.Startdate), nameof(LoanDetails.Enddate), nameof(LoanDetails.Amount))][FromBody] LoanDetails model)
+        public ActionResult Post([Bind(nameof(LoanDetails.Id), nameof(LoanDetails.Startdate), nameof(LoanDetails.Enddate), nameof(LoanDetails.Amount), nameof(LoanDetails.Term), nameof(LoanDetails.Type), nameof(LoanDetails.City))][FromBody] LoanDetails model)
         {
             try
             {
-               var addedModel =  _ILoan.AddListPost(model);
-                return Ok(addedModel);
+                if(model != null)
+                {
+                    var addedModel = _ILoan.AddListPost(model);
+                    return Ok(addedModel);
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status406NotAcceptable);
+                }
             }
             catch (Exception ex)
             {
@@ -73,12 +83,19 @@ namespace LoanManage.Controllers.v1
 
         // PUT api/<LoanController>/5
         [HttpPut("{id}")]
-        public ActionResult Put([Bind(nameof(LoanDetails.Id), nameof(LoanDetails.Startdate), nameof(LoanDetails.Enddate), nameof(LoanDetails.Amount))][FromBody] LoanDetails model)
+        public ActionResult Put([Bind(nameof(LoanDetails.Id), nameof(LoanDetails.Startdate), nameof(LoanDetails.Enddate), nameof(LoanDetails.Amount), nameof(LoanDetails.Term), nameof(LoanDetails.Type), nameof(LoanDetails.City))][FromBody] LoanDetails model)
         {
             try
             {
-                var editedModel = _ILoan.AddListPut(model);
-                return Ok(editedModel);
+                if(model != null)
+                {
+                    var editedModel = _ILoan.AddListPut(model);
+                    return Ok(editedModel);
+                }
+                else
+                {
+                    return StatusCode(StatusCodes.Status406NotAcceptable);
+                }
             }
             catch (Exception ex)
             {
@@ -92,13 +109,20 @@ namespace LoanManage.Controllers.v1
         {
             try
             {
-                var customerinDb = await _ILoan.LoanListById(id);
-                if (customerinDb == null)
-                {
-                    return NotFound();
+                if (id !=0) {
+                    var customerinDb = await _ILoan.LoanListById(id);
+                    if (customerinDb == null)
+                    {
+                        return NotFound();
+                    }
+                    _ILoan.DeleteLoan(id);
+                    return NoContent();
+
                 }
-                _ILoan.DeleteLoan(id);
-                return NoContent();
+                else
+                {
+                    return StatusCode(StatusCodes.Status406NotAcceptable);
+                }
             }
 
             catch (Exception ex)

@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class LoanDetailListComponent implements OnInit {
   filterterm: string;
-  constructor(public service: LoanDetailService, private router:Router) { }
+  constructor(public service: LoanDetailService, private router: Router) { }
 
   ngOnInit() {
     this.service.refreshList();

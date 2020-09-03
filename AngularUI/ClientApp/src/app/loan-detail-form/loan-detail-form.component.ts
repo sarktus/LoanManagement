@@ -47,7 +47,7 @@ export class LoanDetailFormComponent implements OnInit {
       startdate: '',
       enddate: '',
       type: '',
-      amount: 0,
+      amount: null,
       city: ''
     }
   }

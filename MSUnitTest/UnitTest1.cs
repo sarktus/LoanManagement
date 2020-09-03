@@ -1,12 +1,8 @@
 using LoanManage;
 using LoanManage.Controllers.v1;
-using LoanManage.Database;
-using LoanManage.Database.Entity;
 using LoanManage.Repositary;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 
