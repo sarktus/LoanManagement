@@ -10,7 +10,7 @@ export class LoanDetailService {
 
   formData: LoanDetails = new LoanDetails();
   loginData: loginDetails = new loginDetails();
-  //readonly rootURL = 'http://localhost:54604/api';
+  //readonly rootURL1 = 'http://localhost:54604/api';
   readonly rootURL = 'http://localhost:57213';
   readonly loginrootURL = 'http://localhost:64722';
   list: LoanDetails[]=[];
@@ -22,6 +22,10 @@ export class LoanDetailService {
     this.http.get(`${this.rootURL}/loan`)
       .subscribe(
         res => { this.list = res as LoanDetails[];})
+  }
+
+  refreshListByID(id) {
+    return this.http.get(`${this.rootURL}/Loanput/${id}`);
   }
 
   postLoanDetail() {
@@ -36,7 +40,6 @@ export class LoanDetailService {
   }
 
   loginDetail() {
-    debugger;
     return this.http.post(`${this.loginrootURL}/login`, this.loginData);
   }
 }

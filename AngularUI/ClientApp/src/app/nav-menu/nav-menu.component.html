@@ -3,7 +3,7 @@
     class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
   >
     <div class="container">
-      <a class="navbar-brand" [routerLink]="['/']">AngularUI</a>
+      <a class="navbar-brand" [routerLink]="['/']">Loan Manage System</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -20,12 +20,17 @@
         [ngClass]="{ show: isExpanded }"
       >
         <ul class="navbar-nav flex-grow">
-          <li class="nav-item"
+          <!--<li class="nav-item"
+      [routerLinkActive]="['link-active']"
+      [routerLinkActiveOptions]="{ exact: true }">
+    <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
+  </li>-->
+          <!--<li class="nav-item"
               [routerLinkActive]="['link-active']"
               [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" [routerLink]="['/']">Login</a>
+          </li>-->
+          <!--<li class="nav-item" [routerLinkActive]="['link-active']">
             <a class="nav-link text-dark" [routerLink]="['/counter']">Counter</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
@@ -34,9 +39,17 @@
 
           <li class="nav-item" [routerLinkActive]="['link-active']">
             <a class="nav-link text-dark" [routerLink]="['/loan-data']">Loan data</a>
-          </li>
-          <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/loan-detail-form']">loan detail form</a>
+          </li>-->
+          <!--<li class="nav-item" [routerLinkActive]="['link-active']">
+    <a class="nav-link text-dark" [routerLink]="['/loan-detail-form']">loan detail form</a>
+  </li>-->
+          <!--<li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark">Register</a>
+          </li>-->
+          <li class="nav-item"
+              [routerLinkActive]="['link-active']"
+              [routerLinkActiveOptions]="{ exact: true }">
+            <a class="nav-link text-dark" [routerLink]="['/']">Log Out</a>
           </li>
         </ul>
       </div>

@@ -14,7 +14,28 @@ export class LoanDetailFormComponent implements OnInit {
   constructor(public service: LoanDetailService, private router: ActivatedRoute, private ngRoute: Router) { }
 
   ngOnInit() {
-    this.resetForm();
+    let loanid = this.router.snapshot.paramMap.get('id');
+    if (loanid != null) {
+      this.service.refreshListByID(loanid).subscribe(
+        res => {
+          this.service.formData = {
+            id: parseInt(res.Id),
+            term: res.Term,
+            startdate: res.Startdate,
+            enddate: res.Enddate,
+            type: res.Type,
+            amount: res.Amount,
+            city: res.City
+          }
+          //this.resetForm(form);
+        },
+        err => {
+          console.log(err);
+        }
+      )
+    }
+    else
+     this.resetForm();
   }
 
   resetForm(form?: NgForm) {
@@ -26,7 +47,7 @@ export class LoanDetailFormComponent implements OnInit {
       startdate: '',
       enddate: '',
       type: '',
-      amount: 100,
+      amount: 0,
       city: ''
     }
   }
@@ -46,7 +67,6 @@ export class LoanDetailFormComponent implements OnInit {
     this.service.putLoanDetail(loanid).subscribe(
       res => {
         this.resetForm(form);
-        //this.toastr.info('Submitted successfully', 'Loan Detail Register');
         this.service.refreshList();
         this.ngRoute.navigate(['/loan-data']);
       },
@@ -60,8 +80,6 @@ export class LoanDetailFormComponent implements OnInit {
   insertRecord(form: NgForm) {
     this.service.postLoanDetail().subscribe(
       res => {
-        //post
-        debugger;
         this.resetForm(form);
         this.service.refreshList();
         this.ngRoute.navigate(['/loan-data']);

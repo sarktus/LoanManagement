@@ -1,47 +1,86 @@
-<h1 id="tableLabel">Add/ Update  Loan</h1>
-
-<p>This component demonstrates fetching data from the server.</p>
-
-<p></p>
+<div class="col-md-6" style="text-align: center;">
+  <h2 id="tableLabel">Add/ Update  Loan</h2>
+</div>
 
 <form #form="ngForm" autocomplete="off" (ngSubmit)="onSubmit(form)">
+  <input type="hidden" name="id" [(ngModel)]="service.formData.id">
+  <div class="col-md-8 details">
+    <div>
+      <div class="col-md-2 inside">
+        <label>Amount:</label>
+      </div>
+      <div class="col-md-10">
+        <div class="form-group">
+          <input type="number" name="amount" #CardOwnerName="ngModel" [(ngModel)]="service.formData.amount"
+                 class="form-control form-control-lg" placeholder="Amount" required />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="col-md-2 inside">
+        <label>Term:</label>
+      </div>
+      <div class="col-md-10">
+        <div class="form-group">
+          <input type="text" name="term" #CardOwnerName="ngModel" [(ngModel)]="service.formData.term"
+             class="form-control form-control-lg" placeholder="Term" required />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="col-md-2 inside">
+        <label>Type:</label>
+      </div>
+      <div class="col-md-10">
+        <div class="form-group">
+          
+          <input type="text" name="type" #CardOwnerName="ngModel" [(ngModel)]="service.formData.type"
+                 class="form-control form-control-lg" placeholder="Type" required />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="col-md-2 inside">
+        <label>City:</label>
+      </div>
+      <div class="col-md-10">
+        <div class="form-group">
+          
+          <input type="text" name="city" #CardOwnerName="ngModel" [(ngModel)]="service.formData.city"
+                 class="form-control form-control-lg" placeholder="City" required />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="col-md-2 inside">
+        <label>Start Date:</label>
+      </div>
+      <div class="col-md-10">
+        <div class="form-group">
+          
+          <input type="text" name="startdate" #CardOwnerName="ngModel" [(ngModel)]="service.formData.startdate"
+                 class="form-control form-control-lg" placeholder="Start Date" required />
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="col-md-2 inside">
+        <label>End Date:</label>
+      </div>
+      <div class="col-md-10">
+        <div class="form-group">
+         
+          <input type="text" name="enddate" #CardOwnerName="ngModel" [(ngModel)]="service.formData.enddate"
+                 class="form-control form-control-lg" placeholder="End Date" required />
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-md-7">
+    <div class="form-group">
+      <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">SUBMIT</button>
+    </div>
+  </div>
   
-  <div>
-    <input type="hidden" name="id" [(ngModel)]="service.formData.id">
-    <div class="form-group">
-        <label>amount</label>
-        <input type="number" name="amount" #CardOwnerName="ngModel" [(ngModel)]="service.formData.amount"
-            class="form-control form-control-lg" placeholder="Amount" required />
-    </div>
-    <div class="form-group">
-        <label>term</label>
-        <input type="text" name="term" #CardOwnerName="ngModel" [(ngModel)]="service.formData.term"
-            class="form-control form-control-lg" placeholder="Term" required />
-    </div>
-    <div class="form-group">
-        <label>type</label>
-        <input type="text" name="type" #CardOwnerName="ngModel" [(ngModel)]="service.formData.type"
-            class="form-control form-control-lg" placeholder="Type" required />
-    </div>
-    <div class="form-group">
-        <label>city</label>
-        <input type="text" name="city" #CardOwnerName="ngModel" [(ngModel)]="service.formData.city"
-            class="form-control form-control-lg" placeholder="City" required/>
-    </div>
-
-    <div class="form-group">
-        <label>Start Date</label>
-        <input type="text" name="startdate" #CardOwnerName="ngModel" [(ngModel)]="service.formData.startdate"
-            class="form-control form-control-lg" placeholder="Start Date" required/>
-    </div>
-    <div class="form-group">
-        <label>End Date</label>
-        <input type="text" name="enddate" #CardOwnerName="ngModel" [(ngModel)]="service.formData.enddate"
-            class="form-control form-control-lg" placeholder="End Date" required/>
-    </div>
-  </div>
-
-  <div class="form-group">
-    <button class="btn btn-info btn-lg btn-block" type="submit" [disabled]="form.invalid">SUBMIT</button>
-  </div>
 </form>

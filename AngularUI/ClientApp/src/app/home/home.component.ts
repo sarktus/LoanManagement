@@ -43,7 +43,6 @@ export class HomeComponent implements OnInit {
       this.service.loginDetail().subscribe(
         res => {
           //return
-          debugger;
           if (res != null) {
             this.ngRoute.navigate(['/loan-data']);
         }

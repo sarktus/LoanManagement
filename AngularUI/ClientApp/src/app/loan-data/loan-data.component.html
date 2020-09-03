@@ -1,10 +1,22 @@
-<h1 id="tableLabel">Loan Data</h1>
+<h1 id="tableLabel">Loan Details</h1>
 
-<p>This component demonstrates fetching data from the server.</p>
+<p>This data is coming from the server.</p>
+<div class="col-md-12" style="display: flex;padding: 0;">
+  <div class="col-md-4" style="padding:0;">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Search Here" [(ngModel)]="filterterm">
+    </div>
+  </div>
+  <div class="col-md-4">
 
-<div class="form-group">
-  <input type="text" class="form-control" placeholder="Search Here" [(ngModel)]="filterterm">
+  </div>
+  <div class="col-md-4" style="padding:0;">
+    <button type="button" style="float: right;" class="btn btn-primary" [routerLink]="['/loan-detail-form']">
+      Add New
+    </button>
+  </div>
 </div>
+
 
 
 <table class="table">
@@ -39,6 +51,4 @@
   </tbody>
 </table>
 
-<button type="button" class="btn btn-primary" [routerLink]="['/loan-detail-form']">
-  Add New
-</button>
+
