@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { LoanDetailService } from './../loan-details.service';
 import { Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 
 @Component({
@@ -10,9 +11,10 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(public service: LoanDetailService, private ngRoute: Router) {}
+  constructor(public service: LoanDetailService, private ngRoute: Router, private toastr: ToastrService) { }
 
   ngOnInit() {
+    debugger;
     this.resetForm();
   }
 
@@ -30,6 +32,7 @@ export class HomeComponent implements OnInit {
       this.service.loginDetail().subscribe(
         res => {
           if (res != null) {
+            this.toastr.success('You Have Successfully Loggedin');
             this.ngRoute.navigate(['/loan-data']);
         }
       },

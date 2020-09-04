@@ -2,6 +2,7 @@ using LoanManage;
 using LoanManage.Controllers.v1;
 using LoanManage.Repositary;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
@@ -24,10 +25,20 @@ namespace MSUnitTest
         [TestMethod]
         public async Task GetTest()
         {
-            int id = 1;
+            int id = 2012;
             var response = await controller.Get(id);
-            //  Assert.AreEqual("10121992", ((Loan)response.Value).Startdate);
-            Assert.AreEqual("10121992", ((LoanManage.Database.Entity.LoanDetails)((Microsoft.AspNetCore.Mvc.ObjectResult)response.Result).Value).Startdate);
+            Assert.AreEqual("s", ((LoanManage.Database.Entity.LoanDetails)((Microsoft.AspNetCore.Mvc.ObjectResult)response.Result).Value).Startdate);
         }
+
+        [TestMethod]
+        public async Task DeleteTest()
+        {
+            int id = 2003;
+            var response = await controller.Delete(id);
+            //Assert.AreEqual<OkResult>(response);
+
+            Assert.AreEqual(404, (((StatusCodeResult)response).StatusCode));
+        }
+
     }
 }

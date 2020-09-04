@@ -20,9 +20,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
-                  "startLine": 32,
+                  "startLine": 48,
                   "startColumn": 13,
-                  "endLine": 32,
+                  "endLine": 48,
                   "endColumn": 32
                 }
               }
@@ -251,9 +251,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
-                  "startLine": 29,
+                  "startLine": 45,
                   "startColumn": 17,
-                  "endLine": 29,
+                  "endLine": 45,
                   "endColumn": 48
                 }
               }
@@ -272,9 +272,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/APIGateway/Startup.cs",
                 "region": {
-                  "startLine": 25,
+                  "startLine": 34,
                   "startColumn": 22,
-                  "endLine": 25,
+                  "endLine": 34,
                   "endColumn": 26
                 }
               }

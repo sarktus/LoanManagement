@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>APIGateway</ProjectName>
+  <ProjectName>Authentication</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>0670e065-8309-42fe-a44f-b48e397f3745</ProjectGuid>
-  <FullPath>D:\VisualStudio\Git\LoanManagement\APIGateway\APIGateway.csproj</FullPath>
+  <ProjectGuid>22c328fd-0860-4789-9ec0-bcce13efc8ad</ProjectGuid>
+  <FullPath>D:\VisualStudio\Git\LoanManagement\Authentication\Authentication.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="D:\VisualStudio\Git\LoanManagement\.sonarqube\out\1\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePath">D:\VisualStudio\Git\LoanManagement\APIGateway\bin\Debug\netcoreapp3.1\APIGateway.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePath">D:\VisualStudio\Git\LoanManagement\Authentication\bin\Debug\netcoreapp3.1\Authentication.dll.RoslynCA.json</Property>
     <Property Name="sonar.cs.analyzer.projectOutPath">D:\VisualStudio\Git\LoanManagement\.sonarqube\out\1</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>

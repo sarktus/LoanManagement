@@ -61,7 +61,6 @@ D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\staticweba
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.dll
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.pdb
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.genruntimeconfig.cache
-D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csprojAssemblyReference.cache
 D:\Test\LoanManagement\APIGateway\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Test\LoanManagement\APIGateway\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Test\LoanManagement\APIGateway\bin\Debug\netcoreapp3.1\ocelot.json
@@ -94,3 +93,4 @@ D:\Test\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\staticwebassets\APIGat
 D:\Test\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.dll
 D:\Test\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.pdb
 D:\Test\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.genruntimeconfig.cache
+D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\APIGateway.csprojAssemblyReference.cache

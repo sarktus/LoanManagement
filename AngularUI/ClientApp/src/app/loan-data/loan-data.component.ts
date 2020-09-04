@@ -1,7 +1,7 @@
 import { LoanDetailService } from './../loan-details.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-loan-details',
@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class LoanDetailListComponent implements OnInit {
   filterterm: string;
-  constructor(public service: LoanDetailService, private router: Router) { }
+  constructor(public service: LoanDetailService, private router: Router, private toastr: ToastrService) { }
 
   ngOnInit() {
     this.service.refreshList();
@@ -20,6 +20,7 @@ export class LoanDetailListComponent implements OnInit {
     if (confirm('Are you sure to delete this record ?')) {
       this.service.deleteLoanDetail(Id)
         .subscribe(res => {
+          this.toastr.success('Successfully Deleted');
           this.service.refreshList();
         },
           err => { console.log(err); })

@@ -117,18 +117,18 @@
           }
         },
         {
-          "ruleId": "S1128",
+          "ruleId": "S125",
           "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
+          "message": "Remove this commented out code.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v1/LoanController.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 30
+                  "startLine": 34,
+                  "startColumn": 13,
+                  "endLine": 34,
+                  "endColumn": 16
                 }
               }
             }
@@ -207,159 +207,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/DatabaseContext.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/DatabaseContext.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/DatabaseContext.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "endLine": 5,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/DatabaseContext.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/Loan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/LoanDetails.cs",
                 "region": {
                   "startLine": 1,
                   "startColumn": 1,
                   "endLine": 1,
                   "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/Loan.cs",
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/Loan.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Database/Entity/Loan.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "endLine": 5,
-                  "endColumn": 30
                 }
               }
             }
@@ -501,132 +354,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1,
-                  "endLine": 1,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "endLine": 5,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Repositary/ILoan.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Resources/Contact.cs",
                 "region": {
                   "startLine": 1,
@@ -795,153 +522,6 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1,
-                  "endLine": 1,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "endLine": 5,
-                  "endColumn": 26
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1,
-                  "endLine": 6,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1,
-                  "endLine": 7,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
-                "region": {
-                  "startLine": 8,
-                  "startColumn": 1,
-                  "endLine": 8,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
                   "startLine": 1,
@@ -1028,30 +608,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
-                  "startLine": 9,
+                  "startLine": 16,
                   "startColumn": 1,
-                  "endLine": 9,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 1,
-                  "endLine": 14,
+                  "endLine": 16,
                   "endColumn": 36
                 }
               }
@@ -1112,10 +671,10 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
                 "region": {
-                  "startLine": 38,
+                  "startLine": 44,
                   "startColumn": 21,
-                  "endLine": 38,
-                  "endColumn": 24
+                  "endLine": 44,
+                  "endColumn": 27
                 }
               }
             }
@@ -1133,10 +692,31 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
                 "region": {
-                  "startLine": 44,
+                  "startLine": 38,
                   "startColumn": 21,
-                  "endLine": 44,
-                  "endColumn": 27
+                  "endLine": 38,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'id' to 'Id' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 57,
+                  "endLine": 19,
+                  "endColumn": 59
                 }
               }
             }
@@ -1154,9 +734,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Startup.cs",
                 "region": {
-                  "startLine": 66,
+                  "startLine": 86,
                   "startColumn": 17,
-                  "endLine": 66,
+                  "endLine": 86,
                   "endColumn": 48
                 }
               }
@@ -1233,6 +813,23 @@
             ]
           }
         },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
         "S4507": {
           "id": "S4507",
           "shortDescription": "Delivering code in production with debug features activated is security-sensitive",
@@ -1247,6 +844,23 @@
               "SonarWay",
               "MainSourceScope",
               "NotConfigurable"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
             ]
           }
         }

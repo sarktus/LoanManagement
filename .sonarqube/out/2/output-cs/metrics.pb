@@ -1,30 +1,10 @@
-ª
-ND:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v1\LoanController.cs 8j
- '-8FrA!"#$%()*+,./01234569:;<=>?@BCDGHIJKLMNOPxÇ$./04<=>?@BCJKLMã
-ND:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v2\TestController.cs 8j$*r$	
- !"%&'(+,-./0Çp
-ID:\VisualStudio\Git\LoanManagement\LoanManage\Database\DatabaseContext.cs 8r	
-Çc
-ED:\VisualStudio\Git\LoanManagement\LoanManage\Database\Entity\Loan.cs 
-8
-r	
-á
-RD:\VisualStudio\Git\LoanManagement\LoanManage\Migrations\20200820093635_initial.cs 8r	
-Ç		ä
-SD:\VisualStudio\Git\LoanManagement\LoanManage\Migrations\20200824182618_initial1.cs 8r	
- Ç
-	c
-8D:\VisualStudio\Git\LoanManagement\LoanManage\Program.cs 8r
-ÇT
-AD:\VisualStudio\Git\LoanManagement\LoanManage\Repositary\ILoan.csr	
-\
-BD:\VisualStudio\Git\LoanManagement\LoanManage\Resources\Contact.cs 8r	
-Y
-?D:\VisualStudio\Git\LoanManagement\LoanManage\Resources\Info.cs 
-8
-r	
-_
-=D:\VisualStudio\Git\LoanManagement\LoanManage\Service\Loan.cs 8r
-Çß
-8D:\VisualStudio\Git\LoanManagement\LoanManage\Startup.cs 8j=rJ	
-!"#$%&'()*+,-./0123456789:;>?@ABCEGIJKLNOPQRTUVxÇ!".@BEGIKNOPQ
+ç
+UD:\VisualStudio\Git\LoanManagement\AngularUI\Controllers\WeatherForecastController.cs 8r#	
+ !"#$%&'Ç !"n
+BD:\VisualStudio\Git\LoanManagement\AngularUI\Pages\Error.cshtml.cs 8r
+Çb
+7D:\VisualStudio\Git\LoanManagement\AngularUI\Program.cs 8r
+Çò
+7D:\VisualStudio\Git\LoanManagement\AngularUI\Startup.cs 8j;<r8	
+ !"#$%&'(*+,-.02345679:>@ABCDEFGxÇ!#'*+-0249>@BT
+?D:\VisualStudio\Git\LoanManagement\AngularUI\WeatherForecast.cs 8r	

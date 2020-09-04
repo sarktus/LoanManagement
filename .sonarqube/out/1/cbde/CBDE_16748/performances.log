@@ -1,0 +1,96 @@
+D:\VisualStudio\Git\LoanManagement\Authentication\Context\UserDBContext.cs
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\authcontroller.cs
+Get 155
+Get -1
+Get 11
+Get -1
+Post 5
+Post -1
+Put 4
+Put -1
+Delete 5
+Delete -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\LoginController.cs
+Login 58
+Login -1
+AuthenticateUser 8
+AuthenticateUser -1
+GenerateJWTToken 21
+GenerateJWTToken -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\UserController.cs
+GetUserData 8
+GetUserData -1
+GetAdminData 6
+GetAdminData -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Controllers\WeatherForecastController.cs
+Get 5
+Get -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Migrations\20200825045003_test.cs
+Up 5
+Up -1
+Down 7
+Down -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Migrations\20200825045003_test.Designer.cs
+BuildTargetModel 21
+BuildTargetModel -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Migrations\20200827062559_initial2.cs
+Up 135
+Up -1
+Down 5
+Down -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Migrations\20200827062559_initial2.Designer.cs
+BuildTargetModel 8
+BuildTargetModel -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Migrations\UserDBContextModelSnapshot.cs
+BuildModel 49
+BuildModel -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\BasicAuthenticationAttribute.cs
+OnAuthorization 43
+OnAuthorization -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\MyAuthorizeAttribute.cs
+HandleUnauthorizedRequest 18
+HandleUnauthorizedRequest -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\Roles.cs
+AdminRole 6
+AdminRole -1
+UserRole 8
+UserRole -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\User.cs
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Model\UserValidate.cs
+Login 17
+Login -1
+GetUserDetails 5
+GetUserDetails -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Program.cs
+Main 8
+Main -1
+CreateHostBuilder 6
+CreateHostBuilder -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\Startup.cs
+ConfigureServices 4
+ConfigureServices -1
+Configure 6
+Configure -1
+
+D:\VisualStudio\Git\LoanManagement\Authentication\WeatherForecast.cs
+
+D:\VisualStudio\Git\LoanManagement\Authentication\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+
+D:\VisualStudio\Git\LoanManagement\Authentication\obj\Debug\netcoreapp3.1\Authentication.AssemblyInfo.cs
+

@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToastrModule, ToastrService } from 'ngx-toastr';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
@@ -31,6 +33,9 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     BrowserModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    ToastrModule,
+    ToastrModule.forRoot(),
     Ng2SearchPipeModule,
     FormsModule,
     RouterModule.forRoot([
@@ -42,7 +47,7 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
       { path: 'loan-edit-form/:id', component: LoanDetailFormComponent },
     ])
   ],
-  providers: [],
+  providers: [ToastrService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

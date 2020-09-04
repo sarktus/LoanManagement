@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-loan-detail-form',
@@ -11,7 +12,7 @@ import { Router } from '@angular/router';
 })
 export class LoanDetailFormComponent implements OnInit {
 
-  constructor(public service: LoanDetailService, private router: ActivatedRoute, private ngRoute: Router) { }
+  constructor(public service: LoanDetailService, private router: ActivatedRoute, private ngRoute: Router, private toastr: ToastrService) { }
 
   ngOnInit() {
     let loanid = this.router.snapshot.paramMap.get('id');
@@ -27,7 +28,7 @@ export class LoanDetailFormComponent implements OnInit {
             amount: res.Amount,
             city: res.City
           }
-          //this.resetForm(form);
+          this.resetForm(form);
         },
         err => {
           console.log(err);
@@ -68,6 +69,7 @@ export class LoanDetailFormComponent implements OnInit {
       res => {
         this.resetForm(form);
         this.service.refreshList();
+        this.toastr.success('Successfully Data Updated');
         this.ngRoute.navigate(['/loan-data']);
       },
       err => {
@@ -82,6 +84,7 @@ export class LoanDetailFormComponent implements OnInit {
       res => {
         this.resetForm(form);
         this.service.refreshList();
+        this.toastr.success('Successfully Data Added');
         this.ngRoute.navigate(['/loan-data']);
       },
       err => { console.log(err); }

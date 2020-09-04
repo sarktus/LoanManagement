@@ -20,9 +20,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
                 "region": {
-                  "startLine": 22,
+                  "startLine": 18,
                   "startColumn": 47,
-                  "endLine": 22,
+                  "endLine": 18,
                   "endColumn": 59
                 }
               }
@@ -62,9 +62,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
                 "region": {
-                  "startLine": 25,
+                  "startLine": 21,
                   "startColumn": 9,
-                  "endLine": 25,
+                  "endLine": 21,
                   "endColumn": 12
                 }
               }
@@ -83,9 +83,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
                 "region": {
-                  "startLine": 55,
+                  "startLine": 51,
                   "startColumn": 21,
-                  "endLine": 55,
+                  "endLine": 51,
                   "endColumn": 80
                 }
               }
@@ -104,9 +104,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/MyAuthorizeAttribute.cs",
                 "region": {
-                  "startLine": 13,
+                  "startLine": 10,
                   "startColumn": 9,
-                  "endLine": 13,
+                  "endLine": 10,
                   "endColumn": 12
                 }
               }
@@ -117,6 +117,27 @@
           }
         },
         {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Startup.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 13,
+                  "endLine": 53,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1128",
           "level": "warning",
           "message": "Remove this unnecessary 'using'.",
@@ -187,657 +208,6 @@
             {
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Context/UserDBContext.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 1,
-                  "endLine": 6,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1,
-                  "endLine": 1,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/LoginController.cs",
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/LoginController.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1,
-                  "endLine": 7,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/LoginController.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 1,
-                  "endLine": 13,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/UserController.cs",
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1,
-                  "endLine": 1,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/UserController.cs",
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/UserController.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/UserController.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/UserController.cs",
-                "region": {
-                  "startLine": 7,
-                  "startColumn": 1,
-                  "endLine": 7,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 1,
-                  "endLine": 11,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
-                "region": {
-                  "startLine": 14,
-                  "startColumn": 1,
-                  "endLine": 14,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/MyAuthorizeAttribute.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/MyAuthorizeAttribute.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/MyAuthorizeAttribute.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "endLine": 5,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/Roles.cs",
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/Roles.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/Roles.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/Roles.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "endLine": 5,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/User.cs",
-                "region": {
-                  "startLine": 1,
-                  "startColumn": 1,
-                  "endLine": 1,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/User.cs",
-                "region": {
-                  "startLine": 2,
-                  "startColumn": 1,
-                  "endLine": 2,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/User.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 19
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/User.cs",
-                "region": {
-                  "startLine": 4,
-                  "startColumn": 1,
-                  "endLine": 4,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/UserValidate.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 1,
-                  "endLine": 3,
-                  "endColumn": 34
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/UserValidate.cs",
-                "region": {
-                  "startLine": 5,
-                  "startColumn": 1,
-                  "endLine": 5,
-                  "endColumn": 47
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/UserValidate.cs",
                 "region": {
                   "startLine": 6,
                   "startColumn": 1,
@@ -1070,27 +440,6 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Startup.cs",
                 "region": {
-                  "startLine": 12,
-                  "startColumn": 1,
-                  "endLine": 12,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1128",
-          "level": "warning",
-          "message": "Remove this unnecessary 'using'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Startup.cs",
-                "region": {
                   "startLine": 17,
                   "startColumn": 1,
                   "endLine": 17,
@@ -1112,94 +461,10 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
                 "region": {
-                  "startLine": 14,
+                  "startLine": 11,
                   "startColumn": 18,
-                  "endLine": 14,
+                  "endLine": 11,
                   "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S4487",
-          "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
-                "region": {
-                  "startLine": 19,
-                  "startColumn": 61,
-                  "endLine": 19,
-                  "endColumn": 68
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1144",
-          "level": "warning",
-          "message": "Remove the unused private field '_httpcontext'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
-                "region": {
-                  "startLine": 22,
-                  "startColumn": 9,
-                  "endLine": 22,
-                  "endColumn": 60
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/Roles.cs",
-                "region": {
-                  "startLine": 9,
-                  "startColumn": 18,
-                  "endLine": 9,
-                  "endColumn": 23
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Hide this public constructor by making it 'protected'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/UserValidate.cs",
-                "region": {
-                  "startLine": 13,
-                  "startColumn": 16,
-                  "endLine": 13,
-                  "endColumn": 28
                 }
               }
             }
@@ -1230,31 +495,102 @@
           }
         },
         {
-          "ruleId": "S3010",
+          "ruleId": "S1144",
           "level": "warning",
-          "message": "Remove this assignment of '_context' or initialize it statically.",
+          "message": "Remove the unused private field '_httpcontext'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/UserValidate.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
                 "region": {
-                  "startLine": 15,
-                  "startColumn": 13,
-                  "endLine": 15,
+                  "startLine": 18,
+                  "startColumn": 9,
+                  "endLine": 18,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/Roles.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
                   "endColumn": 23
                 }
               }
             }
           ],
-          "relatedLocations": [
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Hide this public constructor by making it 'protected'.",
+          "locations": [
             {
-              "physicalLocation": {
+              "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/UserValidate.cs",
                 "region": {
-                  "startLine": 12,
-                  "startColumn": 39,
-                  "endLine": 12,
-                  "endColumn": 47
+                  "startLine": 10,
+                  "startColumn": 16,
+                  "endLine": 10,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 61,
+                  "endLine": 18,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 23,
+                  "endLine": 28,
+                  "endColumn": 35
                 }
               }
             }
@@ -1272,9 +608,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
                 "region": {
-                  "startLine": 34,
+                  "startLine": 31,
                   "startColumn": 21,
-                  "endLine": 34,
+                  "endLine": 31,
                   "endColumn": 25
                 }
               }
@@ -1293,10 +629,10 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
                 "region": {
-                  "startLine": 46,
+                  "startLine": 37,
                   "startColumn": 21,
-                  "endLine": 46,
-                  "endColumn": 27
+                  "endLine": 37,
+                  "endColumn": 24
                 }
               }
             }
@@ -1314,10 +650,10 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
                 "region": {
-                  "startLine": 40,
+                  "startLine": 43,
                   "startColumn": 21,
-                  "endLine": 40,
-                  "endColumn": 24
+                  "endLine": 43,
+                  "endColumn": 27
                 }
               }
             }
@@ -1335,9 +671,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Startup.cs",
                 "region": {
-                  "startLine": 68,
+                  "startLine": 88,
                   "startColumn": 17,
-                  "endLine": 68,
+                  "endLine": 88,
                   "endColumn": 48
                 }
               }
@@ -1348,18 +684,52 @@
           }
         },
         {
-          "ruleId": "S2245",
+          "ruleId": "S3010",
           "level": "warning",
-          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "message": "Remove this assignment of '_context' or initialize it statically.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/UserValidate.cs",
                 "region": {
-                  "startLine": 29,
-                  "startColumn": 23,
-                  "endLine": 29,
-                  "endColumn": 35
+                  "startLine": 12,
+                  "startColumn": 13,
+                  "endLine": 12,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/UserValidate.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 39,
+                  "endLine": 9,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Migrations/20200827062559_initial2.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 33,
+                  "endLine": 12,
+                  "endColumn": 37
                 }
               }
             }
@@ -1377,9 +747,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
                 "region": {
-                  "startLine": 54,
+                  "startLine": 50,
                   "startColumn": 36,
-                  "endLine": 54,
+                  "endLine": 50,
                   "endColumn": 65
                 }
               }
@@ -1398,9 +768,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
                 "region": {
-                  "startLine": 58,
+                  "startLine": 54,
                   "startColumn": 44,
-                  "endLine": 58,
+                  "endLine": 54,
                   "endColumn": 108
                 }
               }
@@ -1419,9 +789,9 @@
               "resultFile": {
                 "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Model/BasicAuthenticationAttribute.cs",
                 "region": {
-                  "startLine": 59,
+                  "startLine": 55,
                   "startColumn": 21,
-                  "endLine": 59,
+                  "endLine": 55,
                   "endColumn": 44
                 }
               }
