@@ -1,13 +1,13 @@
 D:\VisualStudio\Git\LoanManagement\APIGateway\Program.cs
-Main 7
+Main 5
 Main -1
-CreateHostBuilder 4
+CreateHostBuilder 3
 CreateHostBuilder -1
 
 D:\VisualStudio\Git\LoanManagement\APIGateway\Startup.cs
-ConfigureServices 11
+ConfigureServices 4
 ConfigureServices -1
-Configure 5
+Configure 3
 Configure -1
 
 D:\VisualStudio\Git\LoanManagement\APIGateway\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs

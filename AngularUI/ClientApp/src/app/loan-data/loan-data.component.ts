@@ -10,9 +10,11 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class LoanDetailListComponent implements OnInit {
   filterterm: string;
+
   constructor(public service: LoanDetailService, private router: Router, private toastr: ToastrService) { }
 
   ngOnInit() {
+    
     this.service.refreshList();
   }
 

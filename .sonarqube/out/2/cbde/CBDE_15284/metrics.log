@@ -3,12 +3,6 @@ unsupported 4
 SimpleLambdaExpression 3
 CoalesceExpression 1
 
-exported 9 
-unsupported 14 
-AsyncKeyword 5
-TryStatement 2
-SimpleLambdaExpression 7
-
 exported 0 
 unsupported 2 
 AsyncKeyword 2

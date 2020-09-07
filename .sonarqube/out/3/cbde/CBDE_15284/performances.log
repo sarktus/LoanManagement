@@ -1,93 +1,63 @@
-D:\VisualStudio\Git\LoanManagement\AngularUI\Controllers\WeatherForecastController.cs
-Get 91
-Get -1
-
 D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v1\LoanController.cs
-Get 47
+Get 3
 Get -1
-Get 9
+Get 12
 Get -1
-Post 34
+Post 5
 Post -1
-Put 7
+Put 4
 Put -1
-Delete 7
+Delete 3
 Delete -1
 
-D:\VisualStudio\Git\LoanManagement\AngularUI\Pages\Error.cshtml.cs
-OnGet 13
-OnGet -1
-
-D:\VisualStudio\Git\LoanManagement\AngularUI\Program.cs
-Main 64
-Main -1
-CreateHostBuilder 18
-CreateHostBuilder -1
-
-D:\VisualStudio\Git\LoanManagement\AngularUI\Startup.cs
-ConfigureServices 9
-ConfigureServices -1
-Configure 5
-Configure -1
-
 D:\VisualStudio\Git\LoanManagement\LoanManage\Controllers\v2\TestController.cs
-Get 70
+Get 6
 Get -1
-Get 11
+Get 4
 Get -1
-Post 23
+Post 35
 Post -1
 Put 3
 Put -1
 Delete 4
 Delete -1
 
-D:\VisualStudio\Git\LoanManagement\AngularUI\WeatherForecast.cs
-
-D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
-
 D:\VisualStudio\Git\LoanManagement\LoanManage\Database\DatabaseContext.cs
-OnConfiguring 6
+OnConfiguring 7
 OnConfiguring -1
-
-D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\AngularUI.AssemblyInfo.cs
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\Database\Entity\LoanDetails.cs
 
-D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\AngularUI.MvcApplicationPartsAssemblyInfo.cs
-
-D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\AngularUI.RazorAssemblyInfo.cs
-
 D:\VisualStudio\Git\LoanManagement\LoanManage\Migrations\20200827064352_initial.cs
-Up 8
+Up 30
 Up -1
-Down 6
+Down 5
 Down -1
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\Migrations\20200827064352_initial.Designer.cs
-BuildTargetModel 31
+BuildTargetModel 4
 BuildTargetModel -1
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\Migrations\DatabaseContextModelSnapshot.cs
-BuildModel 6
+BuildModel 4
 BuildModel -1
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\Program.cs
-Main 14
+Main 5
 Main -1
-CreateHostBuilder 10
+CreateHostBuilder 4
 CreateHostBuilder -1
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\Repositary\ILoan.cs
-LoanList 4
+LoanList 5
 LoanList -1
-LoanListById 146
+LoanListById 9
 LoanListById -1
-AddListPost 4
+AddListPost 6
 AddListPost -1
-AddListPut 3
+AddListPut 59
 AddListPut -1
-DeleteLoan 5
+DeleteLoan 4
 DeleteLoan -1
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\Resources\Contact.cs
@@ -95,21 +65,21 @@ D:\VisualStudio\Git\LoanManagement\LoanManage\Resources\Contact.cs
 D:\VisualStudio\Git\LoanManagement\LoanManage\Resources\Info.cs
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\Service\Loan.cs
-LoanList 17
+LoanList 4
 LoanList -1
-LoanListById 7
+LoanListById 6
 LoanListById -1
-AddListPost 10
+AddListPost 6
 AddListPost -1
-AddListPut 7
+AddListPut 11
 AddListPut -1
-DeleteLoan 14
+DeleteLoan 5
 DeleteLoan -1
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\Startup.cs
-ConfigureServices 6
+ConfigureServices 5
 ConfigureServices -1
-Configure 5
+Configure 6
 Configure -1
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
@@ -117,14 +87,4 @@ D:\VisualStudio\Git\LoanManagement\LoanManage\obj\Debug\netcoreapp3.1\.NETCoreAp
 D:\VisualStudio\Git\LoanManagement\LoanManage\obj\Debug\netcoreapp3.1\LoanManage.AssemblyInfo.cs
 
 D:\VisualStudio\Git\LoanManagement\LoanManage\obj\Debug\netcoreapp3.1\LoanManage.MvcApplicationPartsAssemblyInfo.cs
-
-D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
-ExecuteAsync 4
-ExecuteAsync -1
-
-D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
-ExecuteAsync 4
-ExecuteAsync -1
-
-D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\AngularUI.RazorTargetAssemblyInfo.cs
 

@@ -222,6 +222,27 @@
           }
         },
         {
+          "ruleId": "S101",
+          "level": "warning",
+          "message": "Rename class 'authcontroller' to match pascal case naming rules, consider using 'Authcontroller'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 18,
+                  "endLine": 11,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1128",
           "level": "warning",
           "message": "Remove this unnecessary 'using'.",
@@ -453,39 +474,18 @@
           }
         },
         {
-          "ruleId": "S101",
+          "ruleId": "S4487",
           "level": "warning",
-          "message": "Rename class 'authcontroller' to match pascal case naming rules, consider using 'Authcontroller'.",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
                 "region": {
-                  "startLine": 11,
-                  "startColumn": 18,
-                  "endLine": 11,
-                  "endColumn": 32
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Program.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 18,
-                  "endLine": 12,
-                  "endColumn": 25
+                  "startLine": 18,
+                  "startColumn": 61,
+                  "endLine": 18,
+                  "endColumn": 68
                 }
               }
             }
@@ -558,102 +558,18 @@
           }
         },
         {
-          "ruleId": "S4487",
+          "ruleId": "S1118",
           "level": "warning",
-          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Program.cs",
                 "region": {
-                  "startLine": 18,
-                  "startColumn": 61,
-                  "endLine": 18,
-                  "endColumn": 68
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2245",
-          "level": "warning",
-          "message": "Make sure that using this pseudorandom number generator is safe here.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 23,
-                  "endLine": 28,
-                  "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1186",
-          "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
-                "region": {
-                  "startLine": 31,
-                  "startColumn": 21,
-                  "endLine": 31,
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
                   "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1186",
-          "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 21,
-                  "endLine": 37,
-                  "endColumn": 24
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1186",
-          "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
-                "region": {
-                  "startLine": 43,
-                  "startColumn": 21,
-                  "endLine": 43,
-                  "endColumn": 27
                 }
               }
             }
@@ -718,18 +634,81 @@
           }
         },
         {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 23,
+                  "endLine": 28,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1186",
           "level": "warning",
           "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Migrations/20200827062559_initial2.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
                 "region": {
-                  "startLine": 12,
-                  "startColumn": 33,
-                  "endLine": 12,
-                  "endColumn": 37
+                  "startLine": 37,
+                  "startColumn": 21,
+                  "endLine": 37,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 21,
+                  "endLine": 43,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Controllers/authcontroller.cs",
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 21,
+                  "endLine": 31,
+                  "endColumn": 25
                 }
               }
             }
@@ -793,6 +772,27 @@
                   "startColumn": 21,
                   "endLine": 55,
                   "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1186",
+          "level": "warning",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/Authentication/Migrations/20200827062559_initial2.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 33,
+                  "endLine": 12,
+                  "endColumn": 37
                 }
               }
             }

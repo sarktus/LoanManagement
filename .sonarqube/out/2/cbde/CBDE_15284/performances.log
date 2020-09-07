@@ -1,0 +1,40 @@
+D:\VisualStudio\Git\LoanManagement\AngularUI\Controllers\WeatherForecastController.cs
+Get 4
+Get -1
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\Pages\Error.cshtml.cs
+OnGet 6
+OnGet -1
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\Program.cs
+Main 5
+Main -1
+CreateHostBuilder 3
+CreateHostBuilder -1
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\Startup.cs
+ConfigureServices 10
+ConfigureServices -1
+Configure 6
+Configure -1
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\WeatherForecast.cs
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\AngularUI.AssemblyInfo.cs
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\AngularUI.MvcApplicationPartsAssemblyInfo.cs
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\AngularUI.RazorAssemblyInfo.cs
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+ExecuteAsync 3
+ExecuteAsync -1
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+ExecuteAsync 4
+ExecuteAsync -1
+
+D:\VisualStudio\Git\LoanManagement\AngularUI\obj\Debug\netcoreapp3.1\AngularUI.RazorTargetAssemblyInfo.cs
+

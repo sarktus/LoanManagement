@@ -516,6 +516,27 @@
           }
         },
         {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 18,
+                  "endLine": 12,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1128",
           "level": "warning",
           "message": "Remove this unnecessary 'using'.",
@@ -621,27 +642,6 @@
           }
         },
         {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Program.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 18,
-                  "endLine": 12,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1186",
           "level": "warning",
           "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
@@ -654,27 +654,6 @@
                   "startColumn": 21,
                   "endLine": 32,
                   "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1186",
-          "level": "warning",
-          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
-                "region": {
-                  "startLine": 44,
-                  "startColumn": 21,
-                  "endLine": 44,
-                  "endColumn": 27
                 }
               }
             }
@@ -705,18 +684,18 @@
           }
         },
         {
-          "ruleId": "S927",
+          "ruleId": "S1186",
           "level": "warning",
-          "message": "Rename parameter 'id' to 'Id' to match the interface declaration.",
+          "message": "Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Controllers/v2/TestController.cs",
                 "region": {
-                  "startLine": 19,
-                  "startColumn": 57,
-                  "endLine": 19,
-                  "endColumn": 59
+                  "startLine": 44,
+                  "startColumn": 21,
+                  "endLine": 44,
+                  "endColumn": 27
                 }
               }
             }
@@ -738,6 +717,27 @@
                   "startColumn": 17,
                   "endLine": 86,
                   "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'id' to 'Id' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/VisualStudio/Git/LoanManagement/LoanManage/Service/Loan.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 57,
+                  "endLine": 19,
+                  "endColumn": 59
                 }
               }
             }

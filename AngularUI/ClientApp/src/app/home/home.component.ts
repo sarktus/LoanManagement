@@ -14,7 +14,6 @@ export class HomeComponent implements OnInit {
   constructor(public service: LoanDetailService, private ngRoute: Router, private toastr: ToastrService) { }
 
   ngOnInit() {
-    debugger;
     this.resetForm();
   }
 
@@ -32,11 +31,15 @@ export class HomeComponent implements OnInit {
       this.service.loginDetail().subscribe(
         res => {
           if (res != null) {
-            this.toastr.success('You Have Successfully Loggedin');
+            this.toastr.success('You Have Successfully Logged in');
             this.ngRoute.navigate(['/loan-data']);
-        }
+          }
+          if (res == null) {
+            
+          }
       },
-      err => {
+        err => {
+          this.toastr.error('You Have Entered Wrong UserName or Password');
         console.log(err);
       }
     )
